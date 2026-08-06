@@ -1,0 +1,2 @@
+;; Generated package description from eldoc-mouse.el  -*- no-byte-compile: t; lexical-binding:t -*-
+(define-package "eldoc-mouse" "3.0.8" "Display documentation for mouse hover" '((emacs "27.1") (posframe "1.5.1") (eglot "1.23")) :commit "6b7bddc4b16c0b3d6f4203e03e659b5211cab516" :authors '(("Huang Feiyu" . "sibadake1@163.com")) :maintainer '("Huang Feiyu" . "sibadake1@163.com") :keywords '("tools" "languages" "convenience" "mouse" "hover") :url "https://github.com/huangfeiyu/eldoc-mouse")

@@ -1,0 +1,83 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/marcus-doge/projects/Codium/" . "Py/")
+ ("/home/marcus-doge/.config/hypr/" . "config/")
+ ("/home/" . "marcus-doge/")
+ ("/home/marcus-doge/.config/nvim/lua/" . "config/")
+ ("/home/marcus-doge/.config/nvim/" . "lua/")
+ ("/home/marcus-doge/.config/" . "hypr/")
+ ("/home/marcus-doge/projects/RoboSoccer/" . "include/")
+ ("/home/marcus-doge/projects/" . "RoboSoccer/")
+ ("/home/marcus-doge/.emacs.d/" . "auto-save-list/")
+ ("/home/marcus-doge/" . "projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/marcus-doge/"
+ "/home/marcus-doge/projects/RoboSoccer/"
+ "/home/marcus-doge/projects/Codium/Py/"
+ "/home/marcus-doge/projects/Codium/C/"
+ "/home/marcus-doge/projects/Codium/"
+ "/home/marcus-doge/.config/hypr/config/"
+ "/home/marcus-doge/test/"
+ "/home/marcus-doge/.config/hypr/"
+ "/home/marcus-doge/.config/nvim/"
+ "/home/marcus-doge/projects/RoboSoccer/include/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "main.c"
+ "hi.py"
+ "gobackn.c"
+ "windows-workspaces.lua"
+ "bruh.c"
+ "bruh"
+ ".emacs*GNU Emacs*"
+ "lazy-lock.json"
+ "init.lua"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/marcus-doge/" (27252 29745 656586 337000) ".emacs" ".emacs~" ".bash_history" "blender/" "#.emacs*GNU Emacs*#" ".emacs.d/" ".lesshst" "udo q" ".steampid" ".steampath" "Docs/" ".tmux.conf" "clone/" ".tmux/" "core.2791" ".bashrc" "wifi.sh" "raylib/" "Desktop/" "test/" ".gitconfig" ".vscode-oss/" "projects/" ".python_history" ".ssh/" "Pictures/" ".npm/" "ublockdns.txt" ".nv/" "ompthemes/" ".wget-hsts" ".cargo/" ".pki/" ".steam/" "Downloads/" ".dbus/" ".hyprland.log" ".hyprland.err" ".config/" ".cache/" ".local/" ".bash_profile" ".bash_logout" "../" "./")
+
+ ("/home/marcus-doge/projects/RoboSoccer/" (27252 27554 71023 69000) ".#main.c" "#main.c#" "#{#" "#.clangd#" "main" "Makefile" "main.c" ".clangd" "main.exe" "lib/" "include/" "README.md" ".git/" "../" "./")
+
+ ("/home/marcus-doge/projects/Codium/C/" (27251 40012 456579 43000) "#gobackn.c#" "gobackn.c" "../" "./")
+
+ ("/home/marcus-doge/projects/Codium/Py/" (27252 25108 376596 300000) "#hi.py#" "hi.py" "../" "./")
+
+ ("/home/marcus-doge/projects/Codium/" (27237 64252 262295 510000) "README.md" "Py/" "C/" ".git/" "../" "./")
+
+ ("/home/marcus-doge/.config/hypr/config/" (27251 24651 257041 972000) "windows-workspaces.lua" "animations.lua" "layout.lua" "environment.lua" "input.lua" "monitors.lua" "../" "./")
+
+ ("/home/marcus-doge/.config/" (27251 24456 981134 197000) "blender/" "filetypesrc" "BraveSoftware/" "QtProject.conf" "menus/" "ktrashrc" "dolphinrc" "kservicemenurc" "kdeglobals" "kiorc" "mimeapps.list" "gammastep/" "onlyoffice/" "tmux/" "gthumb/" "VSCodium/" "lazygit/" "cava/" "trashrc" "dconf/" "gtk-3.0/" "fastfetch/" "obs-studio/" "pupgui/" "btop/" "quickshell/" "wireshark/" "qt6ct/" "kconf_updaterc" "nvim/" "session/" "pulse/" "zen/" "ghostty/" "hypr/" "rc/" "../" "./")
+
+ ("/home/marcus-doge/test/" (27251 23619 773974 261000) "bruh.c" "bruh.c~" "#bruh.c#" "#bruh#" "bruh" "lab1.c" "../" "./")
+
+ ("/home/marcus-doge/.config/hypr/" (27251 17914 205492 565000) "hyprland.lua" "hyprpaper.conf" "xdg-portal-hyprland" "config/" "../" "./")
+
+ ("/home/marcus-doge/.config/nvim/" (27251 12744 673188 799000) "#init.lua#" "init.lua" "lazy-lock.json" "lua/" "../" "./")
+
+ ("/home/marcus-doge/.config/nvim/lua/config/" (27224 41963 995706 43000) "lazy.lua" "../" "./")
+
+ ("/home/marcus-doge/.config/nvim/lua/" (27243 44938 671181 220000) "plugins/" "config/" "../" "./")
+
+ ("/home/marcus-doge/projects/RoboSoccer/include/" (27235 25692 137260 53000) "raylib.h" "rlgl.h" "rcamera.h" "raymath.h" "../" "./")
+
+ ("/home/marcus-doge/projects/" (27237 64263 470454 932000) "Codium/" "RoboSoccer/" "Robotics-site/" "../" "./")
+
+ ("/home/" (27190 21104 614564 827000) "marcus-doge/" "../" "./")
+
+ ("/home/marcus-doge/.emacs.d/auto-save-list/" (27250 49420 142959 171000) ".saves-15877-marcus-doge~" ".saves-3626-marcus-doge~" "../" "./")
+
+ ("/home/marcus-doge/.emacs.d/" (27246 18563 373195 658000) "tutorial/" "auto-save-list/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
