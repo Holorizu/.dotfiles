@@ -29,8 +29,15 @@
 
 
 
-;; Enable UndoTree Undo Fu
+;; Enable UndoTreeUndo Fu
+(global-undo-tree-mode)
 
+
+
+;; Skewer mode shi
+(add-hook 'js2-mode-hook 'skewer-mode)
+(add-hook 'css-mode-hook 'skewer-css-mode)
+(add-hook 'html-mode-hook 'skewer-html-mode)
 
 
 
@@ -195,10 +202,11 @@
  '(package-selected-packages
    '(ancient-theme company darkman eglot eldoc eldoc-mouse
 		   gruber-darker-ayu-theme gruber-darker-theme
-		   koishi-theme multiple-cursors
-		   phoenix-dark-pink-theme pink-bliss-uwu-theme
-		   play-crystal sourcerer-theme spacemacs-theme
-		   undo-tree yasnippet yasnippet-snippets)))
+		   impatient-mode js2-mode koishi-theme
+		   multiple-cursors phoenix-dark-pink-theme
+		   pink-bliss-uwu-theme play-crystal simple-httpd
+		   skewer-mode sourcerer-theme spacemacs-theme
+		   undo-tree web-mode yasnippet yasnippet-snippets)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
