@@ -1,0 +1,29 @@
+(undo-tree-save-format-version . 1)
+"863ed3469007495bb74fc6d183490b80ea76ad8e"
+[nil nil nil nil (27302 26031 269730 266000) 0 nil]
+([nil nil ((1 . 64) (t . -1)) nil (27302 26031 269726 820000) 0 nil])
+([nil nil (("BottomBar" . -36) (undo-tree-id2 . -9) 45 (t 27302 26031 266626 583000)) nil (27302 26038 282722 772000) 0 nil])
+([nil nil ((36 . 45)) nil (27302 26050 704805 947000) 0 nil] [nil nil (("ShellRoot {
+    " . -20) (undo-tree-id0 . -16) (undo-tree-id1 . -16) 36) ((20 . 36)) (27302 26038 282696 744000) 0 nil])
+([nil nil (("TopBar" . 53) (undo-tree-id3 . -6)) nil (27302 26050 704805 140000) 0 nil])
+nil
+([nil nil ((53 . 59)) nil (27302 26050 704795 746000) 0 nil])
+([nil nil (("b" . -56) (undo-tree-id6 . -1) 57 (t 27302 26050 703547 997000)) nil (27302 26068 913107 428000) 0 nil])
+([nil nil ((56 . 57)) nil (27302 26068 913106 539000) 0 nil])
+([nil nil ((" " . -59) (undo-tree-id5 . -1) 60) nil (27302 26068 913105 948000) 0 nil])
+([nil nil ((" " . -45) (undo-tree-id4 . -1) 46) nil (27302 26068 913102 306000) 0 nil])
+([nil nil ((45 . 46) (t 27302 26068 910453 291000)) nil (27302 26192 827791 79000) 0 nil])
+([nil nil ((58 . 59)) nil (27302 26192 827790 767000) 0 nil])
+([nil nil ((" " . -58) (undo-tree-id0 . -1) 59) nil (27302 26192 827789 996000) 0 nil])
+([nil nil ((59 . 60)) nil (27302 26192 827778 770000) 0 nil])
+([nil nil ((" " . -59) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) 60 (t 27302 26192 825410 702000)) nil (27302 26235 318695 662000) 0 nil])
+([nil nil ((59 . 60)) nil (27302 26235 318683 655000) 0 nil])
+([nil nil (("t" . -53) (undo-tree-id6 . -1) 54 (t 27302 26235 315967 598000)) nil (27302 26353 522428 255000) 0 nil])
+([nil nil ((53 . 54)) nil (27302 26353 522417 851000) 0 nil])
+([nil nil (("b" . -36) (undo-tree-id7 . -1) 37 (t 27302 26353 520850 169000)) nil (27302 26360 176847 630000) 0 nil])
+([nil nil ((36 . 37)) nil (27302 26360 176837 946000) 0 nil])
+([nil nil (("B" . -36) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) 37 (t 27302 26360 174270 705000)) nil (27302 26363 447855 730000) 0 nil])
+([nil nil ((36 . 37)) nil (27302 26363 447844 474000) 0 nil])
+([nil nil (("b" . -36) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) 37 (t 27302 26363 447646 941000)) nil (27302 26391 101676 368000) 0 nil])
+([nil current ((36 . 37)) nil (27302 26391 101663 283000) 0 nil])
+nil

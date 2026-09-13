@@ -1,0 +1,128 @@
+sudo rm -rf raylib/
+git clone --depth 1 https://github.com/raysan5/raylib.git raylib
+cd raylib/src/
+exit
+make PLATFORM=PLATFORM_DESKTOP GLFW_LINUX_ENABLE_WAYLAND=TRUE
+sudo make install
+ls
+cp raylib.h ~/project/RoboSoccer/include/ 
+cp libraylib.a ~/project/RoboSoccer/lib/lin/ 
+ls libraylib.a ~/project/RoboSoccer/lib/lin/
+cp rcamera.h ~/project/RoboSoccer/include/ 
+cp raymath.h ~/project/RoboSoccer/include/ 
+ls ~/project/RoboSoccer/include/ 
+cp rlgl.h ~/project/RoboSoccer/include/ 
+exit
+cd 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+./wifi.sh 
+nmcli
+exit
+whereis ghostty
+tmux
+git status
+git add .
+git commit -m "ig it works now?"
+git push
+cd
+cd raylib/examples/
+make models/models_rotating_cube.c -o rotate_cube
+make models/models_rotating_cube.c
+make models/models_rotating_cube
+ls
+./models/models_rotating_cube 
+rm models/models_rotating_cube 
+ls
+cd
+git add .
+git commit -m "actually getting started"
+git push
+git push
+ls
+git push
+whereis gthumb
+clear
+exit
+cd
+emerge --search mysql
+sudo emerge --ask virtual/mysql
+emereg --search caja
+emerge --search caja
+sudo emerge --ask mate-base/caja
+sudo emerge --unmerge PCManFM-qt
+sudo emerge --unmerge xfe
+emerge -pv --depclean xfe
+sudo emerge --unmerge xfe
+cd
+nvim 
+caja
+hyprctl reload
+hyprctl reload
+cd ..
+git add .
+git commit -m "bruh"
+git push
+git add .
+git commit -m "trynna fix the imcompatible float type"
+git push
+git fetch 
+git fetch 
+ls
+rm -f
+ls
+rm -r /
+git pull
+git status
+git update
+git --help
+git rm
+git rm -a
+git fetch
+ls
+cd ..
+rm -r RoboSoccer/
+ls
+git clone git@github.com:Holorizu/RoboSoccer.git
+ls 
+cd Robo
+cd RoboSoccer/ 
+ls
+./main 
+qs
+cs
+cd
+qs

@@ -1,0 +1,12 @@
+(undo-tree-save-format-version . 1)
+"9dafa5bf0e9b0631dcf5785d20b3d3a8cd77c8c6"
+[nil nil nil nil (27284 1710 141331 434000) 0 nil]
+([nil nil ((nil rear-nonsticky nil 94 . 95) (nil fontified nil 1 . 95) (1 . 95) (t . -1)) nil (27284 1710 141329 868000) 0 nil])
+([nil nil ((#("<window" 0 7 (face sh-quoted-exec fontified t)) . 78)) nil (27284 1710 141328 966000) 0 nil])
+([nil nil ((#("_manager" 0 8 (face sh-quoted-exec fontified t)) . 78)) nil (27284 1710 141328 419000) 0 nil])
+([nil nil ((#(">" 0 1 (face sh-quoted-exec fontified t)) . 78)) nil (27284 1710 141327 866000) 0 nil])
+([nil nil ((78 . 83)) nil (27284 1710 141327 205000) 0 nil])
+([nil nil ((#("o" 0 1 (face sh-quoted-exec fontified t)) . -80) (undo-tree-id0 . -1) (#("r" 0 1 (face sh-quoted-exec fontified t)) . -81) (undo-tree-id1 . -1) (#("l" 0 1 (face sh-quoted-exec fontified t)) . -82) (undo-tree-id2 . -1) 83) nil (27284 1710 141325 911000) 0 nil])
+([nil nil ((80 . 86)) nil (27284 1710 141293 902000) 0 nil])
+([nil current ((87 . 88) 86) nil (27284 1710 141287 9000) 0 nil])
+nil

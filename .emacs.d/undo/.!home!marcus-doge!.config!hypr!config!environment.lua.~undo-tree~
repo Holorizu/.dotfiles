@@ -1,0 +1,17 @@
+(undo-tree-save-format-version . 1)
+"e5a7707df607239353782c95394db847ad58fcba"
+[nil current nil nil (27284 554 405335 276000) 0 nil]
+([nil nil (("hl.env(\"XCURSOR_SIZE\", \"24\")
+hl.env(\"HYPRCURSOR_SIZE\", \"24\")" . 1) (undo-tree-id0 . -60) (undo-tree-id2 . -29) 61 (t 27242 25762 413352 419000)) ((1 . 61)) (27284 553 943339 173000) 0 nil])
+([nil nil ((1 . 71)) (("hl.env(\"HYPRCURSOR_THEME\", \"MyCursor\")
+hl.env(\"HYPRCURSOR_SIZE\", \"24\")" . 1) (undo-tree-id150 . -70) (undo-tree-id151 . -28) (undo-tree-id152 . -28)) (27284 553 642775 922000) 0 nil])
+([nil nil (("MyCursor" . 29) (undo-tree-id5 . -3) (undo-tree-id7 . -3) (undo-tree-id9 . -3) (undo-tree-id11 . -3) (undo-tree-id13 . -3) (undo-tree-id15 . -3) (undo-tree-id17 . -3) (undo-tree-id19 . -3) (undo-tree-id21 . -3) (undo-tree-id23 . -3) (undo-tree-id25 . -3) (undo-tree-id27 . -3) (undo-tree-id29 . -3) (undo-tree-id31 . -3) (undo-tree-id33 . -3) (undo-tree-id35 . -3) (undo-tree-id37 . -3) (undo-tree-id39 . -3) (undo-tree-id41 . -3) (undo-tree-id43 . -3) (undo-tree-id45 . -3) (undo-tree-id47 . -3) (undo-tree-id49 . -3) (undo-tree-id51 . -3) (undo-tree-id53 . -3) (undo-tree-id55 . -3) (undo-tree-id57 . -3) (undo-tree-id59 . -3) (undo-tree-id61 . -3) (undo-tree-id63 . -3) (undo-tree-id65 . -3) (undo-tree-id67 . -3) (undo-tree-id69 . -3) (undo-tree-id71 . -3) (undo-tree-id73 . -3) (undo-tree-id75 . -3) (undo-tree-id77 . -3) (undo-tree-id79 . -3) (undo-tree-id81 . -3) (undo-tree-id83 . -3) (undo-tree-id85 . -3) (undo-tree-id87 . -3) (undo-tree-id89 . -3) (undo-tree-id91 . -3) (undo-tree-id93 . -3) (undo-tree-id95 . -3) (undo-tree-id97 . -3) (undo-tree-id99 . -3) (undo-tree-id101 . -3) (undo-tree-id103 . -3) (undo-tree-id105 . -3) (undo-tree-id107 . -3) (undo-tree-id109 . -3) (undo-tree-id111 . -3) (undo-tree-id113 . -3) (undo-tree-id115 . -3) (undo-tree-id117 . -3) (undo-tree-id119 . -3) (undo-tree-id121 . -3) (undo-tree-id123 . -3) (undo-tree-id125 . -3) (undo-tree-id127 . -3) (undo-tree-id129 . -3) (undo-tree-id131 . -3) (undo-tree-id133 . -3) (undo-tree-id135 . -3) (undo-tree-id137 . -3) (undo-tree-id139 . -8) (t 27284 97 927334 873000)) ((29 . 37)) (27284 553 343301 462000) 0 nil])
+([nil nil ((29 . 33)) (("saga" . 29) (undo-tree-id149 . -4)) (27284 547 253408 961000) 0 nil])
+([nil nil (("hl.env(\"HYPRCURSOR_THEME\", \"saga\")" . 1) (undo-tree-id142 . -32) (undo-tree-id143 . -32) (undo-tree-id145 . -32) (t 27284 106 717546 600000)) ((1 . 35)) (27284 546 903713 233000) 0 nil] [nil nil ((33 . 35) (t 27284 106 717546 600000)) (("eh" . 33) (undo-tree-id140 . -2)) (27284 119 134211 795000) 0 nil])
+([nil nil (("
+" . 1)) ((1 . 2) (t 27284 385 666405 952000)) (27284 546 507030 333000) 0 nil])
+nil
+([nil nil ((1 . 2) (t 27284 385 666405 952000)) (("k" . 1) (undo-tree-id148 . -1)) (27284 546 379683 97000) 0 nil])
+([nil nil ((2 . 3)) (("
+" . 2) (undo-tree-id147 . -1)) (27284 546 379625 897000) 0 nil])
+nil
