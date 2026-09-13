@@ -14,7 +14,7 @@ require("config/input")
 
 -- Set programs that you use
 local terminal    = "ghostty"
-local fileManager = "caja"
+local fileManager = "Caja"
 local menu        = "hyprlauncher"
 local browser	  = "zen"
 

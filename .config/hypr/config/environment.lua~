@@ -1,7 +1,5 @@
-hl.env("XCURSOR_THEME","hicolor")
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
-hl.env("HYPRCURSOR_THEME", "hicolor")
 hl.env("LIBVA_DRIVER_NAME","nvidia")
 hl.env("__GLX_VENDOR_LIBRARY_NAME","nvidia")
 hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
