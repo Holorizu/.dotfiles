@@ -1,8 +1,0 @@
-(undo-tree-save-format-version . 1)
-"56d76d34ff61d04af6860c63cb131cbbd89c093c"
-[nil nil nil nil (27302 25902 968250 164000) 0 nil]
-([nil nil ((1 . 942) (t . -1)) nil (27302 25902 968246 709000) 0 nil])
-([nil nil (("// TopBar.qml" . 1) (undo-tree-id1 . -13) (t 27302 25902 964859 726000)) nil (27302 25912 933170 990000) 0 nil])
-([nil current (("
-" . 1) (undo-tree-id0 . -1)) nil (27302 25912 933167 684000) 0 nil])
-nil

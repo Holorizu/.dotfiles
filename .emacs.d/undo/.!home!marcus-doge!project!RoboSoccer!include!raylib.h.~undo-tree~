@@ -1,7 +1,0 @@
-(undo-tree-save-format-version . 1)
-"a88ff966a36558c224d152090eedc5645c122261"
-[nil nil nil nil (27290 27056 673562 524000) 0 nil]
-([nil nil ((#("transform" 0 9 (c-in-sws t face font-lock-comment-face fontified t)) . -18262) (undo-tree-id2 . -9) 18271 (t 27300 61133 775742 396000)) nil (27300 61582 517681 842000) 0 nil])
-([nil nil ((18366 . 18368)) nil (27300 61582 517680 614000) 0 nil])
-([nil current ((#("r" 0 1 (face font-lock-variable-name-face fontified t)) . -18366) (undo-tree-id0 . -1) (#("o" 0 1 (face font-lock-variable-name-face fontified t)) . -18367) (undo-tree-id1 . -1) 18368) nil (27300 61582 517677 691000) 0 nil])
-nil
