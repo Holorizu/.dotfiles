@@ -3,87 +3,97 @@ import Quickshell
 import Quickshell.Io
 
 Item {
-    id: root
+	id: root
 
-    implicitWidth: content.implicitWidth
-    implicitHeight: content.implicitHeight
+	implicitWidth: content.implicitWidth
+	implicitHeight: content.implicitHeight
 
-    property string networkName: "Offline"
-    property string networkIcon: "󰤭"
-    property string ipAddress: ""
-    property bool showIp: false
+	property string networkName: "Offline"
+	property string networkIcon: "󰤭"
+	property string ipAddress: ""
+	property bool showIp: false
 
-    Text {
-        id: content
+	Text {
+		id: content
 
-        color: "#ffffff"
-        font.bold: true
-        font.pointSize: 11
+		color: "#ffffff"
+		font.bold: true
+		font.pointSize: 12
+		font.family: "Cascadia Mono"
 
-        text: showIp
-            ? networkIcon + "I know where you pee: " + ipAddress
-            : networkIcon + " " + networkName
-    }
+		text: showIp
+		? networkIcon + "I know where you pee: " + ipAddress
 
-    MouseArea {
-        anchors.fill: parent
-        cursorShape: Qt.PointingHandCursor
+		: networkIcon + " " + networkName
+	}
 
-        onClicked: {
-            if (!showIp) {
-                ipProc.running = true
-            } else {
-                showIp = false
-            }
-        }
-    }
+	MouseArea {
+		anchors.fill: parent
+		cursorShape: Qt.PointingHandCursor
 
-    // Get network name
-    Process {
-        id: networkProc
+		onClicked: {
+			if (!showIp) {
+				ipProc.running = true
+			} else {
+				showIp = false
+			}
+		}
+	}
 
-        command: [
-            "nmcli",
-            "-t",
-            "-f",
-            "TYPE,STATE,CONNECTION",
-            "device"
-        ]
+	// Get network name
+	Process {
+		id: networkProc
 
-        stdout: StdioCollector {
-            onStreamFinished: {
-                const output = this.text.trim()
+		command: [
+			"nmcli",
+			"-t",
+			"-f",
+			"TYPE,STATE,CONNECTION",
+			"device"
+		]
 
-                networkName = "Offline"
-                networkIcon = "󰤭"
+		stdout: StdioCollector {
+			onStreamFinished: {
+				const output = this.text.trim()
 
-                for (const line of output.split("\n")) {
-                    const parts = line.split(":")
+				networkName = "My pc kinda networkless :("
+				networkIcon = "󰤭"
 
-                    if (parts.length < 3)
-                        continue
+				for (const line of output.split("\n")) {
+					const parts = line.split(":")
 
-                    const type = parts[0]
-                    const state = parts[1]
-                    const connection = parts.slice(2).join(":")
+					if (parts.length < 3)
+					continue
 
-                    if (type === "wifi" && state === "connected") {
-                        networkName = connection
-                        networkIcon = "󰤨"
-                        break
-                    }
+					const type = parts[0]
+					const state = parts[1]
+					const connection = parts.slice(2).join(":")
 
-                    if (type === "ethernet" && state === "connected") {
-                        networkName = connection
-                        networkIcon = "󰈀"
-                        break
-                    }
-                }
-            }
-        }
+					if (type === "wifi" && state === "connected") {
+						networkName = connection
+						networkIcon = "󰤨"
+						break
+					}
 
-        Component.onCompleted: running = true
-    }
+					if (type === "ethernet" && state === "connected") {
+						networkName = connection
+						networkIcon = "󰈀"
+						break
+					}
+				}
+			}
+		}
+
+		Component.onCompleted: running = true
+	}
+
+	Timer {
+		interval: 3000
+		running: true
+		repeat: true
+
+		onTriggered: networkProc.running = true
+	}
 
     // Get IP address
     Process {

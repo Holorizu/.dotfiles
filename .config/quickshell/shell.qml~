@@ -1,42 +1,6 @@
 import Quickshell
-import Quickshell.Wayland
-import Quickshell.Io
-import QtQuick
 
-PanelWindow {
-	anchors {
-		top: true
-		left: true
-		right: true
-	}
-
-	implicitHeight: 30
-	color: "transparent" 
-
-	Text {
-		id: clock
-		anchors.centerIn: parent
-		color: "#ffffff"
-
-		Process {
-
-			id: dateProc
-			command: ["date"]
-
-			running: true
-
-			stdout: StdioCollector {
-				onStreamFinished: clock.text = this.text
-			}
-		}
-		Timer {
-			interval: 1000
-
-			running: true
-
-			repeat: true
-
-			onTriggered: dateProc.running = true
-		}
-	}
+ShellRoot {
+    bottomBar{}
+    topBar{}
 }

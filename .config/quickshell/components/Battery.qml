@@ -45,6 +45,7 @@ Item {
             color: root.batteryColor
             font.pointSize: 11
             font.bold: true
+			font.family: "Cascadia Mono"
 
             anchors.verticalCenter: parent.verticalCenter
         }
