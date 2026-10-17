@@ -32,6 +32,7 @@ alias wf=./wifi.sh
 
 export PATH=$PATH:/home/marcus-doge/.local/bin
 
-eval "$(oh-my-posh init bash --config ~/ompthemes/catppuccin_mocha.omp.json)"
+eval "$(oh-my-posh init bash --config ~/ompthemes/marcus.omp.json)"
 
 export QT_QPA_PLATFORMTHEME=qt6ct
+. "$HOME/.cargo/env"
