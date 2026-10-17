@@ -24,8 +24,6 @@ local browser	  = "zen"
 -------------------
 
  hl.on("hyprland.start", function () 
---   hl.exec_cmd(terminal)
---   hl.exec_cmd("nm-applet")
    hl.exec_cmd("hyprpaper")
    hl.exec_cmd("~/.config/hypr/xdg-portal-hyprland")
    hl.exec_cmd("/usr/libexec/hyprpolkitagent")
@@ -85,6 +83,8 @@ hl.config({
 hl.config({
     master = {
         new_status = "master",
+		new_on_top = true,
+		smart_resizing = true,
     },
 })
 
@@ -172,3 +172,8 @@ hl.bind(mainMod .. " + PRINT", hl.dsp.exec_cmd("hyprshot -m window"))
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m monitor"))
 hl.bind(" SHIFT + PRINT", hl.dsp.exec_cmd("hyprshot -m region"))
 
+
+-- Master Workspace
+hl.bind(mainMod .. " + Tab" , hl.dsp.layout("cyclenext"))
+hl.bind(mainMod .. " + Z" , hl.dsp.layout("cycleprev"))
+hl.bind(mainMod .. " + X" , hl.dsp.layout("swapwithmaster master"))
